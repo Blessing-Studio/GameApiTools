@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameApiTools", "GameApiTools\GameApiTools.csproj", "{2F9DFD47-7F08-46A4-8ED0-AA60C704E0FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab", "Lab\Lab.csproj", "{4F6501FE-4355-404D-9DA9-F18C8B8332C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F9DFD47-7F08-46A4-8ED0-AA60C704E0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9DFD47-7F08-46A4-8ED0-AA60C704E0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F9DFD47-7F08-46A4-8ED0-AA60C704E0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9DFD47-7F08-46A4-8ED0-AA60C704E0FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F6501FE-4355-404D-9DA9-F18C8B8332C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6501FE-4355-404D-9DA9-F18C8B8332C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6501FE-4355-404D-9DA9-F18C8B8332C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6501FE-4355-404D-9DA9-F18C8B8332C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
