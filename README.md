@@ -13,9 +13,7 @@
 GameListTools gameListTools = new GameListTools();//这个没啥好说的
 var v11 = gameListTools.Send(ApiConstant.MinecraftListAPiM);//获取并序列化游戏列表
 foreach (var i in v11.AllVersion)//循环遍历所有的版本并将版本号打印到控制台上
-{
-     Console.WriteLine(i.Id);
-}
+      Console.WriteLine(i.Id);
 ```
 > 除了Send方法以外还有SendAsync方法获取完整的游戏列表
 #### 如果你只想获取单一版本类型，可以使用一下方法
