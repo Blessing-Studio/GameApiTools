@@ -26,6 +26,21 @@ OnlySendSnapshot() //如上，接收的是快照版
 ``` 
 
 ## 基本使用（米游社（原神））
+> nnd，获取cookie请自行通过内嵌浏览器方式获取
+ ``` c#
+ //获取用户信息方法
+ SignTools sign = new SignTools("cookie"）//此处参数填在浏览器登录后获取的cookie
+ var refinfo = sign.Send(ApiConstant.MiHoYoSignApi);//接收用户信息方法
+ //将信息打印到控制台上
+ var v11= string.Format("{0}:{1}","用户名",v1.ReturnData.DataList[0].Nickname);
+ var v2= string.Format("{0}:{1}","是否游玩的官服",v1.ReturnData.DataList[0].Isofficial);
+ var v3= string.Format("{0}:{1}","当前世界等级",v1.ReturnData.DataList[0].Level);
+ var v4= string.Format("{0}:{1}","游戏内Uid",v1.ReturnData.DataList[0].Uid);
+ Console.WriteLine(v11);
+ Console.WriteLine(v2);
+ Console.WriteLine(v3);
+ Console.WriteLine(v4);
+ ``` 
 
-方法不完全，目前不能获取到api必须的Cookie
-后续版本补上
+## 基本使用（Steam）
+在制品
